@@ -12,6 +12,7 @@ This is a list of camera manufacturers:
 * Princenton Instruments
 * Hamamatsu
 * Goodrich / Sensors Unlimited
+* Xenics
 
 
 ## Thorlabs
@@ -63,5 +64,8 @@ Hamamatsu catalog about these models are not very clear. It it not clear about c
 [Web](http://www.sensorsinc.com/cameras.html) 640x512 focal plane array (FPA) InGaAs
 
 SUI Image Analysis software is included on the support CD shipped with Goodrich cameras. Works with National Instruments frame-grabber cards via the LabVIEW® Run-time Engine when NI IMAQ imaging software driver is installed
+
+## Xenics
+(http://www.xenics.com/en/infrared_imaging_applications/infrared_cameras_for_scientific_applications_by_xenics/application_-_laser_beam_profiling_by_xenics.asp)
 
 [Link a google](http://www.google.com)
