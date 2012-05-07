@@ -10,6 +10,7 @@ This is a list of camera manufacturers:
 * BaySpec
 * Andor Technology
 * Princenton Instruments
+* Hamamatsu
 
 
 ## Thorlabs
@@ -47,6 +48,14 @@ Spiricom sells model **SP-1550M**, for 1550nm only (phosphorous layer).
 Has two possible solutions:
 - **OMAV** linear array or discrete photodiodes (PDA), for 1000-2000nm spectroscopy
 - **PIoNIR** InGaAs 2D camera for 400-1700nm, needs cooling by TEC or water
+
+
+## Hamamatsu
+- **C5840* covers 400-1600nm, but it is an analogic camera (analogic output): we will need a capturer card (frame grabber) to make measurements
+- **C10633-13**/**C10633-23** is a 320x256px camera, with pixels of 30um size, without cooling, 900-1520nm. Datasheet is not very clear aboutoutput format: it has USB2.0 connector but also analogic output. Needs an external controller and frame-grabber??
+- **C10633-34** covers 40-1520nm. It has more pixels (640x512px), but does not have USB, it has RS-232, and very low frame rate (1.6fps). Requires external controller and frame grabber. Requieres cooling peltier and water.
+
+Hamamatsu catalog about these models are not very clear. It it not clear about controlling software. Comes free with camera? Can be LabView controlled?.
 
 
 
