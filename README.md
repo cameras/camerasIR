@@ -62,5 +62,6 @@ Hamamatsu catalog about these models are not very clear. It it not clear about c
 ## Goodrich / Sensors Unlimited
 [Web](http://www.sensorsinc.com/cameras.html) 640x512 focal plane array (FPA) InGaAs
 
+SUI Image Analysis software is included on the support CD shipped with Goodrich cameras. Works with National Instruments frame-grabber cards via the LabVIEW® Run-time Engine when NI IMAQ imaging software driver is installed
 
 [Link a google](http://www.google.com)
