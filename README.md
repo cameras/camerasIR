@@ -47,7 +47,7 @@ Spiricom sells model **SP-1550M**, for 1550nm only (phosphor layer).
 ## Princenton Instruments
 Has two possible solutions:
 - **OMAV** linear array or discrete photodiodes (PDA), for 1000-2000nm spectroscopy
-- **PIoNIR** InGaAs 2D camera for 400-1700nm 640x512px. PIoNIR employs powerful, thermoelectric (TE) peltier cooler (Air or Liquid assisted) for up to -90C cooling to reduce dark current. This is done without the use of liquid nitrogen for maintenance-free operation. Output format: Gigabit Ethernet (GigE), controlled by LightField software or Picam SDK. This model is, indeed, a focal plane array (FPA) a 2D photodiode array.
+- **PIoNIR** InGaAs 2D camera for 400-1700nm 640x512px. PIoNIR employs powerful, thermoelectric (TE) peltier cooler (Air or Liquid assisted) for up to -90C cooling to reduce dark current. This is done without the use of liquid nitrogen for maintenance-free operation. Output format: Gigabit Ethernet (GigE), controlled by LightField software or Picam SDK. This model is, indeed, a focal plane array (FPA) a 2D photodiode array, 640x512 InGaAs focal plane array camera for visible and SWIR.
 
 
 ## Hamamatsu
