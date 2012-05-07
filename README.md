@@ -25,25 +25,26 @@ Study this models: WinCamD-UCD12-NIR, WinCamD-UCD23-NIR, WinCamD-UHR-NIR, TaperC
 
 ## EdmundOptics
 Edmund has two approaches for desired range.
--Using a standard VIS CCD camera, Edmund sells an High REsolution 1550nm converter (NT56-764), it is a phosphorous layer
+-Using a standard VIS CCD camera, Edmund sells an High REsolution 1550nm converter (**NT56-764**), it is a phosphorous layer
 -An specific camera for 1550nm only.
 
 ## Spiricom
-Spiricom sells model SP-1550M, for 1550nm only (phosphorous layer).
+Spiricom sells model **SP-1550M**, for 1550nm only (phosphorous layer).
 
 ## ElectroPhysics
-*IRE-320S for 800-2500nm range, with digital output
-*MicroViewer for 400-1900nm
+- **IRE-320S** for 800-2500nm range, with digital output
+- **MicroViewer** for 400-1900nm
 
 ## BaySpec
-Nuvanut series, cooled InGaAs camera, three models: 900-1700nm, 1100-2200nm, 1250-2500nm
+**Nuvanut** series, cooled InGaAs camera, three models: 900-1700nm, 1100-2200nm, 1250-2500nm
 
 
 ## Andor Technology
-iDus InGaAs linear photodetector array (PDA) is not a 2D-camera. For 800-2200nm needs cooling (Water or TEC). It has a 512 or 1024 elements. Designed for spectroscopy.
+**iDus** InGaAs linear photodetector array (PDA) is not a 2D-camera. For 800-2200nm needs cooling (Water or TEC). It has a 512 or 1024 elements. Designed for spectroscopy.
 
 
 ## Princenton Instruments
+Has two possible solutions:
 *OMAV linear array or discrete photodiodes (PDA), for 1000-2000nm spectroscopy
 *PIoNIR InGaAs 2D camera for 400-1700nm, needs cooling by TEC or water
 
