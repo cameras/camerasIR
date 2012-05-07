@@ -1,7 +1,4 @@
-camerasIR
-=========
-
-Buying an IR CCD
+# Buying an IR camera
 
 This is a list of camera manufacturers:
 * Thorlabs
@@ -13,6 +10,9 @@ This is a list of camera manufacturers:
 * BaySpec
 * Andor Technology
 * Princenton Instruments
+
+
+
 
 
 
