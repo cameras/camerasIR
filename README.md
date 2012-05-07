@@ -11,6 +11,7 @@ This is a list of camera manufacturers:
 * Andor Technology
 * Princenton Instruments
 * Hamamatsu
+* Goodrich / Sensors Unlimited
 
 
 ## Thorlabs
@@ -57,6 +58,9 @@ Has two possible solutions:
 
 Hamamatsu catalog about these models are not very clear. It it not clear about controlling software. Comes free with camera? Can be LabView controlled?.
 
+
+## Goodrich / Sensors Unlimited
+[Web](http://www.sensorsinc.com/cameras.html) 640x512 focal plane array (FPA) InGaAs
 
 
 [Link a google](http://www.google.com)
