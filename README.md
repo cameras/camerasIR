@@ -17,9 +17,10 @@ CCD and CMOS cameras from [Thorlabs](http://www.thorlabs.com) are only for VIS-N
 
 
 ## Newport
-Only one model covers required ranges: LBP4 beam profiler. Manufacturer declares that camera covers 350-1310 & 1550nm range. It is a CCD camera with an additional conversion coating sensible at 1550nm+/-50nm.
+Only one model covers required ranges: LBP4 beam profiler. Manufacturer declares that camera covers 350-1310 & 1550nm range. It is a CCD camera with an additional conversion coating (phosphorous?) sensible at 1550nm+/-50nm.
 
 ## DataRay
+Dataray cameras are available at three ranges: standard (350-1150nm), -1310 model (350-1350nm) and -NIR model (1480-1680nm).
 
 ## EdmundOptics
 
