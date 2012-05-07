@@ -21,6 +21,7 @@ Only one model covers required ranges: LBP4 beam profiler. Manufacturer declares
 
 ## DataRay
 Dataray cameras are available at three ranges: standard (350-1150nm), -1310 model (350-1350nm) and -NIR model (1480-1680nm).
+Study this models: WinCamD-UCD12-NIR, WinCamD-UCD23-NIR, WinCamD-UHR-NIR, TaperCamD-UCD12-NIR, TaperCamD20-15-UCD23-NIR
 
 ## EdmundOptics
 
