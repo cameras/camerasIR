@@ -9,3 +9,7 @@ This is a list of camera manufacturers:
 * DataRay
 * EdmundOptics
 * Spiricom
+* ElectroPhysics
+* BaySpec
+* Andor Technology
+* Princenton Instruments
