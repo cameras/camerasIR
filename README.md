@@ -18,19 +18,19 @@ CCD and CMOS cameras from [Thorlabs](http://www.thorlabs.com) are only for VIS-N
 
 
 ## Newport
-Only one model covers required ranges: **LBP4** beam profiler. Manufacturer declares that camera covers 350-1310 & 1550nm range. It is a CCD camera with an additional conversion coating (phosphorous?) sensible at 1550nm+/-50nm.
+Only one model covers required ranges: **LBP4** beam profiler. Manufacturer declares that camera covers 350-1310 & 1550nm range. It is a CCD camera with an additional conversion coating (conversion phosphor?) sensible at 1550nm+/-50nm.
 
 ## DataRay
-Dataray cameras are available at three ranges: standard (350-1150nm), -1310 model (350-1350nm) and -NIR model (1480-1680nm).
+Dataray cameras are available at three ranges: standard (350-1150nm), -1310 model (350-1350nm) and -NIR model (1480-1680nm uses covnersion phosphor).
 Study this models: WinCamD-UCD12-NIR, WinCamD-UCD23-NIR, WinCamD-UHR-NIR, TaperCamD-UCD12-NIR, TaperCamD20-15-UCD23-NIR
 
 ## EdmundOptics
 Edmund has two approaches for desired range.
-- Using a standard VIS CCD camera, Edmund sells an High REsolution 1550nm converter (**NT56-764**), it is a phosphorous layer
+- Using a standard VIS CCD camera, Edmund sells an High REsolution 1550nm converter (**NT56-764**), it is a NIS-to-visible conversion phosphor layer
 - An specific camera for 1550nm only.
 
 ## Spiricom
-Spiricom sells model **SP-1550M**, for 1550nm only (phosphorous layer).
+Spiricom sells model **SP-1550M**, for 1550nm only (phosphor layer).
 
 ## ElectroPhysics
 - **IRE-320S** for 800-2500nm range, with digital output
@@ -47,7 +47,7 @@ Spiricom sells model **SP-1550M**, for 1550nm only (phosphorous layer).
 ## Princenton Instruments
 Has two possible solutions:
 - **OMAV** linear array or discrete photodiodes (PDA), for 1000-2000nm spectroscopy
-- **PIoNIR** InGaAs 2D camera for 400-1700nm, needs cooling by TEC or water
+- **PIoNIR** InGaAs 2D camera for 400-1700nm. PIoNIR employs powerful, thermoelectric (TE) peltier cooler (Air or Liquid assisted) for up to -90C cooling to reduce dark current. This is done without the use of liquid nitrogen for maintenance-free operation.
 
 
 ## Hamamatsu
