@@ -32,8 +32,8 @@ Edmund has two approaches for desired range.
 Spiricom sells model SP-1550M, for 1550nm only (phosphorous layer).
 
 ## ElectroPhysics
--IRE-320S for 800-2500nm range, with digital output
--MicroViewer for 400-1900nm
+*IRE-320S for 800-2500nm range, with digital output
+*MicroViewer for 400-1900nm
 
 ## BaySpec
 Nuvanut series, cooled InGaAs camera, three models: 900-1700nm, 1100-2200nm, 1250-2500nm
@@ -44,8 +44,8 @@ iDus InGaAs linear photodetector array (PDA) is not a 2D-camera. For 800-2200nm 
 
 
 ## Princenton Instruments
--OMAV linear array or discrete photodiodes (PDA), for 1000-2000nm spectroscopy
--PIoNIR InGaAs 2D camera for 400-1700nm, needs cooling by TEC or water
+*OMAV linear array or discrete photodiodes (PDA), for 1000-2000nm spectroscopy
+*PIoNIR InGaAs 2D camera for 400-1700nm, needs cooling by TEC or water
 
 
 
