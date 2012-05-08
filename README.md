@@ -1,13 +1,11 @@
-# Buying an IR camera for 1300 and 1550nm range
+# Buying an NIR-SWIR camera for 1300 and 1550nm wavelengths
 
 This is a list of camera manufacturers:
 * Thorlabs
 * Newport
 * DataRay
 * EdmundOptics
-* Spiricom
-* ElectroPhysics
-* BaySpec
+* Ophir Optronics / Spiricon
 * Andor Technology
 * Princenton Instruments
 * Hamamatsu
@@ -17,34 +15,28 @@ This is a list of camera manufacturers:
 
 
 ## Thorlabs
-CCD and CMOS cameras from [Thorlabs](http://www.thorlabs.com) are only for VIS-NIR range (400-900nm typical, some reach 1100nm).
+CCD and CMOS cameras from [Thorlabs](http://www.thorlabs.com/navigation.cfm?guide_ID=2025) are only for VIS-NIR range (400-900nm typical, some reach 1100nm).
+
+
+## EdmundOptics
+Edmund only has products for VIS, and some solutions for 1550nm:
+- Using a standard VIS CCD camera, Edmund sells an High REsolution 1550nm converter [**NT56-764**](http://www.edmundoptics.com/lasers/laser-measurement/infrared-ir-ultraviolet-uv-viewers/high-resolution-1550nm-converter-for-ccd-cameras/2418), it is a NIS-to-visible conversion phosphor layer
+- An specific camera for 1550nm only.
+
 
 
 ## Newport
-Only one model covers required ranges: **LBP4** beam profiler. Manufacturer declares that camera covers 350-1310 & 1550nm range. It is a CCD camera with an additional conversion coating (conversion phosphor?) sensible at 1550nm+/-50nm.
+Only one model covers required ranges: [**LBP4** beam profiler](http://www.newport.com/Laser-Beam-Profiler/318103/1033/info.aspx). Manufacturer declares that camera covers 350-1310 & 1550nm range. It is a CCD camera with an additional conversion coating (conversion phosphor?) sensible at 1550nm+/-50nm.
+
 
 ## DataRay
 Dataray cameras are available at three ranges: standard (350-1150nm), -1310 model (350-1350nm) and -NIR model (1480-1680nm uses covnersion phosphor).
 Study this models: WinCamD-UCD12-NIR, WinCamD-UCD23-NIR, WinCamD-UHR-NIR, TaperCamD-UCD12-NIR, TaperCamD20-15-UCD23-NIR
 
-## EdmundOptics
-Edmund has two approaches for desired range.
-- Using a standard VIS CCD camera, Edmund sells an High REsolution 1550nm converter (**NT56-764**), it is a NIS-to-visible conversion phosphor layer
-- An specific camera for 1550nm only.
 
-## Spiricom
-Spiricom sells model **SP-1550M**, for 1550nm only (phosphor layer).
+## Ophir Optronics / Spiricom
+Spiricom sells model [**SP-1550M**](http://www.ophiropt.com/laser-measurement-instruments/beam-profilers/products/industrial-applications/the-cameras/sp-1550m), for 1550nm only (phosphor layer).
 
-## ElectroPhysics
-- **IRE-320S** for 800-2500nm range, with digital output
-- **MicroViewer** for 400-1900nm
-
-## BaySpec
-**Nuvanut** series, cooled InGaAs camera, three models: 900-1700nm, 1100-2200nm, 1250-2500nm
-
-
-## Andor Technology
-**iDus** InGaAs linear photodetector array (PDA) is not a 2D-camera. For 800-2200nm needs cooling (Water or TEC). It has a 512 or 1024 elements. Designed for spectroscopy.
 
 
 ## Princenton Instruments
@@ -62,10 +54,22 @@ Hamamatsu catalog about these models are not very clear. It it not clear about c
 
 
 ## Goodrich / Sensors Unlimited
-[Web](http://www.sensorsinc.com/cameras.html) 640x512 focal plane array (FPA) InGaAs
+Have many submodels in [website](http://www.sensorsinc.com/cameras.html)
+
+
+- [**GA640C-15**](http://www.sensorsinc.com/downloads/4110-0289%20GA640C%204_27_12.pdf) 640x512 focal plane array (FPA) InGaAs
+- [**GA1280J**](http://www.sensorsinc.com/downloads/4110-0273%20GA1280J-15B%204_27_12.pdf) 1280x1024px
+- [**SU640HSX-1.7RT](http://www.sensorsinc.com/downloads/4110-0252%20640HSX%204_27_12.pdf) 640x512px
+- [**SU640KTSX-1.7RT](http://www.sensorsinc.com/downloads/4110-0246%20320HX%20Sales%20Sheet.pdf)
+- [**SU640KTS-1.7RT](http://www.sensorsinc.com/downloads/4110-0246%20320HX%20Sales%20Sheet.pdf) modelo CE
+- [**SU320KTS-1.7RT/Vis](http://www.sensorsinc.com/downloads/SU320KTS-SU320KTSVIS.pdf)
+
+More cameras...
 
 SUI Image Analysis software is included on the support CD shipped with Goodrich cameras. Works with National Instruments frame-grabber cards via the LabVIEW® Run-time Engine when NI IMAQ imaging software driver is installed
 
+
+Sus productos pueden presentar [restricciones a la exportación](http://www.sensorsinc.com/downloads/notes_ITAR_restrictions.pdf).
 
 
 ## Xenics
@@ -78,7 +82,8 @@ Other cameras
 - [**XEVA-1.7-640**](http://www.xenics.com/en/infrared_camera/visnir-nir_camera_-visual_near_and_near_infrared_cameras_-_ingaas/xeva_near_ir_camera_-_high-res_-_ingaas_fpa.asp) provides more pixels but lower frame rate: 900-1700nm InGaAs FPA 640x512px, 20x20um pixel size, TEC cooled for super low dark current. Weight: 1.8kg. Four gain modes. Outputs: USB2.0 or CameraLink. Includes software Xcontrol.
 - [**Cheetah-640CL**](http://www.xenics.com/en/infrared_camera/visnir-nir_camera_-visual_near_and_near_infrared_cameras_-_ingaas/cheetah_near_ir_camera_-_ingaas_fpa_camera_link.asp) 900-1700nm InGaAs 640x512px, cooling by Peltier. Special for high framerates: 1730fps with double channel CameraLink.
 
-Xenics tiene distribuidor en España: (Infaimon)[http://www.infaimon.com/catalogo-industria/camaras-vision-artificial/camaras-infrarrojas-termicas-674.html]. Además, Infaimon alquila cámaras IR.
+Xenics tiene distribuidor en España: [Infaimon](http://www.infaimon.com/catalogo-industria/camaras-vision-artificial/camaras-infrarrojas-termicas-674.html). Además, Infaimon [alquila cámaras IR](http://www.infaimon.com/catalogo-ciencia/camaras-para-entornos-cientificos/camaras-infrarrojas-termicas/alquiler-camaras-infrarrojas-744.html).
+
 
 
 ## Allied Vision Technologies
