@@ -72,6 +72,9 @@ Hamamatsu catalog about these models are not very clear. It it not clear about c
 ## Goodrich / Sensors Unlimited
 Have many submodels in [website](http://www.sensorsinc.com/cameras.html)
 
+Sus productos pueden presentar [restricciones a la exportación](http://www.sensorsinc.com/downloads/notes_ITAR_restrictions.pdf).
+
+
 
 - [**GA640C-15**](http://www.sensorsinc.com/downloads/4110-0289%20GA640C%204_27_12.pdf) 640x512 focal plane array (FPA) InGaAs
 - [**GA1280J**](http://www.sensorsinc.com/downloads/4110-0273%20GA1280J-15B%204_27_12.pdf) 1280x1024px
@@ -84,8 +87,8 @@ More cameras...
 
 SUI Image Analysis software is included on the support CD shipped with Goodrich cameras. Works with National Instruments frame-grabber cards via the LabVIEW® Run-time Engine when NI IMAQ imaging software driver is installed
 
+SU320-1.7RT supported in [National Instruments website](http://sine.ni.com/apps/utf8/nipc.product?pid=2062&asid=1102).
 
-Sus productos pueden presentar [restricciones a la exportación](http://www.sensorsinc.com/downloads/notes_ITAR_restrictions.pdf).
 
 
 ## Xenics
