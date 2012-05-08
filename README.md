@@ -6,7 +6,7 @@ This is a list of camera manufacturers:
 * DataRay
 * EdmundOptics
 * Ophir Optronics / Spiricon
-* Andor Technology
+* FLIR Systems
 * Princenton Instruments
 * Hamamatsu
 * Goodrich / Sensors Unlimited
@@ -30,8 +30,17 @@ Only one model covers required ranges: [**LBP4** beam profiler](http://www.newpo
 
 
 ## DataRay
-Dataray cameras are available at three ranges: standard (350-1150nm), -1310 model (350-1350nm) and -NIR model (1480-1680nm uses covnersion phosphor).
-Study this models: WinCamD-UCD12-NIR, WinCamD-UCD23-NIR, WinCamD-UHR-NIR, TaperCamD-UCD12-NIR, TaperCamD20-15-UCD23-NIR
+Dataray cameras are available at three ranges:
+-  standard (350-1150nm)
+- -1310 model (350-1350nm)
+- -NIR model (1480-1680nm, uses conversion phosphor).
+Indeed, _-NIR_ model is only useable in 1550nm window!.
+
+[WinCamD](http://www.dataray.com/index.php?cPath=2_9), [BladeCam](http://www.dataray.com/index.php?cPath=2_11) and [TaperCamD](http://www.dataray.com/index.php?cPath=2_27) are USB2.0 powered cameras with CCD & CMOS array sensors.
+
+DataRay software can interface with [third-party software](http://www.dataray.com/support10.php).
+LabVIEW software is [free available](http://www.dataray.com/UserFiles/file/WinCamVi.zip) for WinCamD.
+
 
 
 ## Ophir Optronics / Spiricom
@@ -39,10 +48,17 @@ Spiricom sells model [**SP-1550M**](http://www.ophiropt.com/laser-measurement-in
 
 
 
+## FLIR Systems
+- [**Alpha NIR**](http://www.flir.com/uploadedFiles/CVS/Markets/Legacy/Documents/Alpha%20NIR%20Indigo.pdf) OBSOLETED InGaAs focal plane array (FPA), 320x256px, 30x30um pixel, 900-1700nm. Peltier stabilization to 0ºC. Output: 12 bit parallel._Alpha NIR_ camera is designed to use with National Instruments digital image acquisition board (IMAQ). FLIR provides software and hardware in the form of a LabVIEW virtual instrument (aka __IRvista__), IMAQ board and diital cable interface. Virtual instrument controls integration time setting, gain and other sensor parameters. The system allows the user to acquire and display 12-bit digital image data, change camera settings, calibrate camera and analyze the acquired data. FLIR also offers a comprehensive LabVIEW toolkit for users who wish to develop custom applications with **Alpha NIR**.
+- [**Tau SWIR**](http://www.flir.com/cvs/cores/view/?id=51890) http://www.flir.com/cvs/cores/view/?id=51890&collectionid=602&col=51889 para montadores OEM. 640x512px.
+
+
+
+
 ## Princenton Instruments
 Has two possible solutions:
 - **OMAV** linear array or discrete photodiodes (PDA), for 1000-2000nm spectroscopy
-- **PIoNIR** InGaAs 2D camera for 400-1700nm 640x512px. PIoNIR employs powerful, thermoelectric (TE) peltier cooler (Air or Liquid assisted) for up to -90C cooling to reduce dark current. This is done without the use of liquid nitrogen for maintenance-free operation. Output format: Gigabit Ethernet (GigE), controlled by LightField software or Picam SDK. This model is, indeed, a focal plane array (FPA) a 2D photodiode array, 640x512 InGaAs focal plane array camera for visible and SWIR.
+- [**PIoNIR**](http://www.princetoninstruments.com/products/imcam/pionir/) InGaAs 2D camera for 400-1700nm 640x512px. PIoNIR employs powerful, thermoelectric (TE) peltier cooler (Air or Liquid assisted) for up to -90C cooling to reduce dark current. This is done without the use of liquid nitrogen for maintenance-free operation. Output format: Gigabit Ethernet (GigE), controlled by LightField software or Picam SDK. This model is, indeed, a focal plane array (FPA) a 2D photodiode array, 640x512 InGaAs focal plane array camera for visible and SWIR.
 
 
 ## Hamamatsu
@@ -75,7 +91,7 @@ Sus productos pueden presentar [restricciones a la exportación](http://www.sens
 ## Xenics
 Suggested cameras for laser beam profiling are:
 - [**XS-1.7-320**](http://www.xenics.com/en/infrared_camera/visnir-nir_camera_-visual_near_and_near_infrared_cameras_-_ingaas/xs_near_ir_camera_-_ingaas_fpa.asp) 900-1700nm InGaAs FPA 320x256px, 30x30um pixel size, uncooled. Output by USB2.0, 60fps. Includes software _Xcontrol_ (which provides simple measurements, CVS output array, histograms...). Xeneth API/SDK includes Labview controls, but it is not clear id this software is included with camera. This camera is outdated.
-- [**Bobcat-1.7-320**](http://www.xenics.com/en/infrared_camera/visnir-nir_camera_-visual_near_and_near_infrared_cameras_-_ingaas/bobcat_smart_nir_camera_-_ingaas_detector.asp) has similar specifications (900-1700nm InGaAs FPA 320x256px, uncooled), but small pixel (20x20um), embedded DSP.
+- [**Bobcat-1.7-320**](http://www.xenics.com/en/infrared_camera/visnir-nir_camera_-visual_near_and_near_infrared_cameras_-_ingaas/bobcat_smart_nir_camera_-_ingaas_detector.asp) has similar specifications (900-1700nm InGaAs FPA 320x256px, uncooled), but small pixel (20x20um), embedded DSP. Output: ethernet or CameraLink.
 
 Other cameras
 - [**XEVA-1.7-320**](http://www.xenics.com/en/infrared_camera/visnir-nir_camera_-visual_near_and_near_infrared_cameras_-_ingaas/xeva_near_ir_night_vision_camera_-_thermo-electrically_te_cooled_ingaas_fpa.asp) 900-1700nm InGaAs FPA 320x256px, 30x30um pixel sixe, TEC cooled for super low dark current. Two gain modes. Output can be USB2.0 (100fps maximum) or CameraLink (350fps). Camera is delivered with a graphical user interface _X-Control_, which offers direct access to various camera settings such as exposure time and operating temperature. 
@@ -94,7 +110,8 @@ Xenics tiene distribuidor en España: [Infaimon](http://www.infaimon.com/catalog
 
 
 
+
 ## National Instruments
 This [link](http://sine.ni.com/apps/utf8/nipc.specs?action=search&asid=1102) provides a list of tested cameras. CameraLink compatible cameras need a [file](http://digital.ni.com/public.nsf/allkb/05DCE3868362783586256FC8004F123C) with camera and [framegrabber](http://digital.ni.com/public.nsf/allkb/E16D3364AD5D8C1C862576160075AF93?OpenDocument) parameters. A [software](http://sine.ni.com/nips/cds/view/p/lang/en/nid/201791) is available to generate this file. A [FTP](ftp://ftp.ni.com/support/imaq/camera_support/camera_files/digital/) with generated files is available.
 
-[Link a google](http://www.google.com)
+
