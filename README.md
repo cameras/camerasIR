@@ -13,6 +13,7 @@ This is a list of camera manufacturers:
 * Hamamatsu
 * Goodrich / Sensors Unlimited
 * Xenics
+* Allied Vision Technologies
 
 
 ## Thorlabs
@@ -65,7 +66,30 @@ Hamamatsu catalog about these models are not very clear. It it not clear about c
 
 SUI Image Analysis software is included on the support CD shipped with Goodrich cameras. Works with National Instruments frame-grabber cards via the LabVIEW® Run-time Engine when NI IMAQ imaging software driver is installed
 
+
+
 ## Xenics
 (http://www.xenics.com/en/infrared_imaging_applications/infrared_cameras_for_scientific_applications_by_xenics/application_-_laser_beam_profiling_by_xenics.asp)
+
+Suggested cameras for laser beam profiling are:
+- **XS-1.7-320** 900-1700nm InGaAs FPA 320x256px, 30x30um pixel size, uncooled. Output by USB2.0, 60fps. Includes software _Xcontrol_ (which provides simple measurements, CVS output array, histograms...). Xeneth API/SDK includes Labview controls, but it is not clear id this software is included with camera. This camera is outdated.
+- **Bobcat-1.7-320** has similar specifications (900-1700nm InGaAs FPA 320x256px, uncooled), but small pixel (20x20um), embedded DSP
+
+Other cameras
+- **XEVA-1.7-320** 900-1700nm InGaAs FPA 320x256px, 30x30um pixel sixe, TEC cooled for super low dark current. Two gain modes. Output can be USB2.0 (100fps maximum) or CameraLink (350fps). Camera is delivered with a graphical user interface _X-Control_, which offers direct access to various camera settings such as exposure time and operating temperature. 
+- **XEVA-1.7-640** provides more pixels but lower frame rate: 900-1700nm InGaAs FPA 640x512px, 20x20um pixel size, TEC cooled for super low dark current. Weight: 1.8kg. Four gain modes. Outputs: USB2.0 or CameraLink. Includes software Xcontrol.
+- **Cheetah-640CL** 900-1700nm InGaAs 640x512px, cooling by Peltier. Special for high framerates: 1730fps with double channel CameraLink.
+
+
+## Allied Vision Technologies
+- Goldeye [**P-032 SWIR**](http://www.alliedvisiontec.com/emea/products/cameras/gigabit-ethernet/goldeye/p-032-swir.html) camera is a 900-1700nm InGaAs 636x508px, 25x25um, 30fps, peltier cooling. Outputs GigE, CameraLink as option.
+- Goldeye [**P-008 SWIR**](http://www.alliedvisiontec.com/emea/products/cameras/gigabit-ethernet/goldeye/p-008-swir.html) camera is a 900-1700nm InGaAs 320x256px, 30x30um, 100fps, peltier cooling. Outputs GigE, CameraLink as option.
+
+[Software](http://www.alliedvisiontec.com/emea/support/downloads/software.html) can be downloaded free of charge, but [no LabView drivers are provided](http://www.alliedvisiontec.com/fileadmin/content/PDF/Software/AVT_software/AVT_software_stuff/QuickSelector/AVTWindowsSDKComparision_v2.1.0.pdf).
+
+
+
+## National Instruments
+This [link](http://sine.ni.com/apps/utf8/nipc.specs?action=search&amp;asid=1102) provides a list of tested cameras. CameraLink compatible cameras need a [file](http://digital.ni.com/public.nsf/allkb/05DCE3868362783586256FC8004F123C) with camera and [framegrabber](http://digital.ni.com/public.nsf/allkb/E16D3364AD5D8C1C862576160075AF93?OpenDocument) parameters. A [software](http://sine.ni.com/nips/cds/view/p/lang/en/nid/201791) is available to generate this file. A [FTP](ftp://ftp.ni.com/support/imaq/camera_support/camera_files/digital/) with generated files is available.
 
 [Link a google](http://www.google.com)
