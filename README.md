@@ -78,6 +78,8 @@ Have many submodels in [website](http://www.sensorsinc.com/cameras.html). All ar
 Sus productos pueden presentar [restricciones a la exportación](http://www.sensorsinc.com/downloads/notes_ITAR_restrictions.pdf).
 
 #### KT-Family
+CameraLink of 12bits, C-mount external lenses
+
 - [**SU640KTS-1.7RT**](http://www.sensorsinc.com/downloads/SU640KTS.pdf) meets CE requirements, AGC and NUC corrections, 30fps, EIA170, CameraLink 12bits and RS232 for commands and controls. 640x512px, 900-1700nm, 25um, for laser beam profiling. M42x1 mount with FD adaptor and C-mount lens included. 16mmx12.8mm
 Module dimmensions: 53x53x65mm, 270g.
 
@@ -93,6 +95,8 @@ Module dimmensions: 53x53x65mm, 270g.
 - for high sensitivity for passive surveillance and use with lasers [**SU320KTX-1.7RT**](http://www.sensorsinc.com/downloads/SU320KTX.pdf) High sensitivity wide dynamic range. on-board AGC and NUC. Simultaneous analog and CameraLink 12bits 60fps. 900-1700nm or 700-1700nm. 320x240px, 40um pithc, M42x1 and C-mount adaptor28º FOV. Active area: 12.8mmx9.6mm.  Module dimmensions: 52x52x64mm, 270g
 
 #### SD-Family
+CameraLink of 14bits, bigger module, F- and FD-mount adapters not included.
+
 -  High sensitivity [**SU640SDX-1.7RT**](http://www.sensorsinc.com/downloads/SU640SDX.pdf) 640x512px 25um, AGC and NUC. EIA170 75ohm BNC and CameraLink 14 bits 30fps, 900-1700nm Active area: 16x12.8mm. Sensor a 17.3mm del mount flange. M42x1m optional F- and FD-mount adapters. no incluye adaptores. Taladros M6 en el bottom y M4 en el front. Camera body size 16x8x8cm, 1kg
 
 - Windowing Camera high frame rate [**SU640SDWH-1.7RT** and -Vis](http://www.sensorsinc.com/downloads/SU640SDWH.pdf) 15000fps with four ports. 640x512px 25um, EIA170 75ohm BNC analog and CameraLink 14bit. Active area: 16x12.8mm M42x1 thread, F-mount and FD-mount adaptors available. Sensor a 17.3mm del optical mount flange. Camera body with M4 and M6 holes. 16x8x8cm 1kg. 
