@@ -73,28 +73,38 @@ Hamamatsu catalog about these models are not very clear. It it not clear about c
 
 
 ## Goodrich / Sensors Unlimited
-Have many submodels in [website](http://www.sensorsinc.com/cameras.html)
+Have many submodels in [website](http://www.sensorsinc.com/cameras.html). All are room temperature (non-cooling) InGaAs FPAs.
 
 Sus productos pueden presentar [restricciones a la exportación](http://www.sensorsinc.com/downloads/notes_ITAR_restrictions.pdf).
 
 #### KT-Family
-- [**SU640KTSX-1.7RT**](). [**SU640KTS-1.7RT**](http://www.sensorsinc.com/downloads/SU640KTS.pdf) meets CE requirements, AGC and NUC corrections, 30fps, EIA170, CameraLink 12bits and RS232 for commands and controls. Both 640x512px, 900-1700nm, 25um, for laser beam profiling. M42x1 mount with FD adaptor and C-mount lens included. 16mmx12.8mm
-- for pulses events [**SU320KTS-1.7RT**](http://www.sensorsinc.com/downloads/SU320KTS-SU320KTSVIS.pdf) and [**SU320KTSVis**](http://www.sensorsinc.com/downloads/SU320KTS-SU320KTSVIS.pdf). 320px
-- Windowing Camera for very high framerate [SU320KTSW-1.7RT and SU320KTSWVis](http://www.sensorsinc.com/downloads/SU320KTSW-SU320KTSWVis.pdf)
-- for high sensitivity [**SU320KTSX-1.7RT**](http://www.sensorsinc.com/downloads/SU320KTSX.pdf). 900-1700nm, 320x256px, 25um, wide dynamic range.
-- for high sensitivity for passive surveillance and use with lasers [**SU320KTX-1.7RT**](http://www.sensorsinc.com/downloads/SU320KTX.pdf)
+- [**SU640KTS-1.7RT**](http://www.sensorsinc.com/downloads/SU640KTS.pdf) meets CE requirements, AGC and NUC corrections, 30fps, EIA170, CameraLink 12bits and RS232 for commands and controls. 640x512px, 900-1700nm, 25um, for laser beam profiling. M42x1 mount with FD adaptor and C-mount lens included. 16mmx12.8mm
+Module dimmensions: 53x53x65mm, 270g.
+
+- for pulsed events, pulsed laser beam and machine vision of moving objects [**SU320KTS-1.7RT**](http://www.sensorsinc.com/downloads/SU320KTS-SU320KTSVIS.pdf) and [**SU320KTSVis**](http://www.sensorsinc.com/downloads/SU320KTS-SU320KTSVIS.pdf). 320x256px, 25um pitch AGC, NUC, works in constant-gain/variable-integration-time or constant integration time/variable gain. Simultaneous EIA-170 analog and CameraLink outputs 60fps. M42x1 lens mount, C-mount lens adaptor included 18ºFOV. Active area: 8mm x 6.4mm. Module dimmensions: 53x53x65mm 270g. 
+
+- Windowing Camera for very high framerate [SU320KTSW-1.7RT and SU320KTSWVis](http://www.sensorsinc.com/downloads/SU320KTSW-SU320KTSWVis.pdf) High framerate in reduced ROI. EIA-170 analog 60fps and CameraLink 12bit simultaneous. On board AGC and NUC. 320x256px 25um pitch. M42x1 lens mount, with C-mount adapter inclided. 18ºFOV. Active area: 8 x 6.4mm. Module dimmensions: 53x53x65mm, 270g
+
+- [**SU640KTSX-1.7RT**](http://www.sensorsinc.com/downloads/SU640KTSX.pdf), high-sensitivity, wide dynamic range, on-board AGC and NUCs. Simultaneous  EIA170 analog and CameraLinks 12-bits outputs 30fps, 640x512px, 25um, emission microscopy, astronomy. M42x1 lens mount, C-mount adapter included 18ºFOV. Sensor 16x12.8mm. 900-1700nm standard, 700-1700nm in NIR/SWIR version. Module dimmensions: 53x53x65mm, 270g
+
+- for high sensitivity [**SU320KTSX-1.7RT**](http://www.sensorsinc.com/downloads/SU320KTSX.pdf). 900-1700nm, 320x256px, 25um, High sensitivity, wide dynamic range. Onboard AGC and NUC. 900-1700nm. Simultaneous analog EIA170 and digital CameraLink 12bits 60fps, M42x1 and C-mount adapter 18ºFOV. Active area: 8mmx6.4mm Module dimensions: 53x53x65mm, 270g.
+
+
+- for high sensitivity for passive surveillance and use with lasers [**SU320KTX-1.7RT**](http://www.sensorsinc.com/downloads/SU320KTX.pdf) High sensitivity wide dynamic range. on-board AGC and NUC. Simultaneous analog and CameraLink 12bits 60fps. 900-1700nm or 700-1700nm. 320x240px, 40um pithc, M42x1 and C-mount adaptor28º FOV. Active area: 12.8mmx9.6mm.  Module dimmensions: 52x52x64mm, 270g
 
 #### SD-Family
--  High sensitivity [**SU640SDX-1.7RT**](http://www.sensorsinc.com/downloads/SU640SDX.pdf) 640x512px, AGC and NUC.
-- Windowing Camera high frame rate [**SU640SDWH-1.7RT** and -Vis](http://www.sensorsinc.com/downloads/SU640SDWH.pdf) 15000fps with four ports.
-- Area Camera [**SU640SDV-1.7RT** and -Vis](http://www.sensorsinc.com/downloads/SU640SDV-SU640SDVVis.pdf)
+-  High sensitivity [**SU640SDX-1.7RT**](http://www.sensorsinc.com/downloads/SU640SDX.pdf) 640x512px 25um, AGC and NUC. EIA170 75ohm BNC and CameraLink 14 bits 30fps, 900-1700nm Active area: 16x12.8mm. Sensor a 17.3mm del mount flange. M42x1m optional F- and FD-mount adapters. no incluye adaptores. Taladros M6 en el bottom y M4 en el front. Camera body size 16x8x8cm, 1kg
+
+- Windowing Camera high frame rate [**SU640SDWH-1.7RT** and -Vis](http://www.sensorsinc.com/downloads/SU640SDWH.pdf) 15000fps with four ports. 640x512px 25um, EIA170 75ohm BNC analog and CameraLink 14bit. Active area: 16x12.8mm M42x1 thread, F-mount and FD-mount adaptors available. Sensor a 17.3mm del optical mount flange. Camera body with M4 and M6 holes. 16x8x8cm 1kg. 
+
+- Area Camera [**SU640SDV-1.7RT** and -Vis](http://www.sensorsinc.com/downloads/SU640SDV-SU640SDVVis.pdf) 640x512 25um, wide field of view. EIA170 conector BNC de 75ohm and CameraLink 14bits. Extensive interactive commands. M42x1 thread, with F or FD adapters not included. Sensor focal plane a 17.3mm del mount flange. Taladros M6 y M4 en el camera body 16x8x8cm, 1kg. Active area: 16x12.8mm
 
 #### J-Family
 - Military Rugged [**GA1280J**](http://www.sensorsinc.com/downloads/4110-0273%20GA1280J-15B%204_27_12.pdf) 1280x1024px, 15umpitch, 30fps, 900 to 1700nm or 700 to 1700nm. AGC and NUC. CameraLink 12bits (3M SDR26 connector). M42x1 mount lens. 19x15mm active area
 - Military Rugged [**GA640C-15**](http://www.sensorsinc.com/downloads/4110-0289%20GA640C%204_27_12.pdf) 640x512px 15um pitch CameraLink 12bits, 900 to 1700nm or 700 to 1700nm Lens mount M15x0.5. 9.6x7.7mm active area.
 
-#### H-Family [**SU640HSX-1.7RT**](http://www.sensorsinc.com/downloads/4110-0252%20640HSX%204_27_12.pdf) 640x512px. [**SU320HX-1.7RT**](http://www.sensorsinc.com/downloads/4110-0246%20320HX%20Sales%20Sheet.pdf) 320x240px, 40um. Both uncooled, Mil-Hardened, surveillance and maritime applications. AGC, NUC, Simultaneous RS170 analog and CameraLink 12bit. M42-1 to C-mount adapter.
-
+#### H-Family 
+[**SU640HSX-1.7RT**](http://www.sensorsinc.com/downloads/4110-0252%20640HSX%204_27_12.pdf) 640x512px. [**SU320HX-1.7RT**](http://www.sensorsinc.com/downloads/4110-0246%20320HX%20Sales%20Sheet.pdf) 320x240px, 40um. Both uncooled, Mil-Hardened, surveillance and maritime applications. AGC, NUC, Simultaneous RS170 analog and CameraLink 12bit. M42-1 to C-mount adapter.
 
 
 
